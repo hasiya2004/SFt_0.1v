@@ -43,7 +43,17 @@ except FileNotFoundError:
             "Synapses are the junctions where neurons communicate. They transmit signals using neurotransmitters.",
             "The theory of relativity, proposed by Albert Einstein, revolutionized the way we understand time, space, and the universe's structure.",
             "Yuri Gagarin was the first human to travel to space aboard Vostok 1 in 1961.",
-            "The hippocampus is a region in the brain primarily associated with memory and spatial navigation."
+            "The hippocampus is a region in the brain primarily associated with memory and spatial navigation.",
+            "The basic unit of life is the cell.",
+            "The mitochondria are responsible for energy production.",
+            "The cell membrane controls the movement of substances in and out of the cell.",
+            "The ribosomes and the endoplasmic reticulum are involved in protein synthesis.",
+            "The genetic material of the cell is stored in the nucleus.",
+            "Ribosomes are responsible for protein synthesis.",
+            "The lysosome is considered the 'suicide bag' of the cell.",
+            "Prokaryotic cells lack a nucleus.",
+            "The main types of cellular junctions are tight junctions, gap junctions, and desmosomes.",
+            "Osmosis is the movement of water across a semipermeable membrane from a region of low solute concentration to a region of high solute concentration.",
         ]
     }
     # Adding questions related to Brownian Motion
