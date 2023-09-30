@@ -99,14 +99,24 @@ def get_closest_match_from_df(question):
     return df.iloc[closest_match_idx]['Answer']
 
 # Interactive loop
+# Interactive loop
 while True:
-    user_input = input("\nAsk me a question (or type 'exit' to quit, 'add' to add a Q&A pair): ")
+    user_input = input("\nAsk me a question (or type 'exit' to quit, 'add' to add a Q&A pair): ").strip()
+    if not user_input:
+        print("Please enter a valid input.")
+        continue
     if user_input.lower() == 'exit':
-        df.to_csv("qa_dataset.csv", index=False)
+        try:
+            df.to_csv("qa_dataset.csv", index=False)
+        except Exception as e:
+            print(f"Error saving to CSV: {e}")
         break
     elif user_input.lower() == 'add':
-        question = input("Enter the question: ")
-        answer = input("Enter the answer: ")
+        question = input("Enter the question: ").strip()
+        if question in df['Question'].values:
+            print("That question already exists in the dataset!")
+            continue
+        answer = input("Enter the answer: ").strip()
         df = df.append({"Question": question, "Answer": answer}, ignore_index=True)
         # Re-transforming the tfidf matrix after adding new data
         tfidf_matrix = tfidf_vectorizer.fit_transform(df['Question'])
@@ -117,3 +127,4 @@ while True:
             print(response)
         else:
             print("Sorry, I don't know the answer to that.")
+
