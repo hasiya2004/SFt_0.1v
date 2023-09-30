@@ -19,7 +19,17 @@ except FileNotFoundError:
             "what is the role of synapses",
             "explain the theory of relativity",
             "who was the first human to travel to space",
-            "describe the function of the hippocampus"
+            "describe the function of the hippocampus",
+            "What is the basic unit of life?",
+            "Which organelle is responsible for energy production?",
+            "What is the function of the cell membrane?",
+            "What structures are involved in protein synthesis?",
+            "Where is the genetic material of the cell stored?",
+            "What is the role of ribosomes?",
+            "Which organelle is considered the 'suicide bag' of the cell?",
+            "Which cells lack a nucleus?",
+            "What are the main types of cellular junctions?",
+            "What is osmosis?",
         ],
         'Answer': [
             "I'm just a computer program, so I don't have feelings, but I'm operating normally.",
