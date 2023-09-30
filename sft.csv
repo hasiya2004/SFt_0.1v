@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Read the .scsv file
+# If it's indeed semicolon-separated, specify the delimiter as ';'
+data = pd.read_csv('your_file.scsv', delimiter=';')
+
+# Display the first few rows of the dataset
+print(data.head())
