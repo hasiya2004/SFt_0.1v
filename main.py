@@ -30,6 +30,7 @@ except FileNotFoundError:
             "Which cells lack a nucleus?",
             "What are the main types of cellular junctions?",
             "What is osmosis?",
+            "වර්ගඵලය හා පරිමාව පිළිබද",
         ],
         'Answer': [
             "I'm just a computer program, so I don't have feelings, but I'm operating normally.",
@@ -54,6 +55,7 @@ except FileNotFoundError:
             "Prokaryotic cells lack a nucleus.",
             "The main types of cellular junctions are tight junctions, gap junctions, and desmosomes.",
             "Osmosis is the movement of water across a semipermeable membrane from a region of low solute concentration to a region of high solute concentration.",
+            "වර්ගඵලය හා පරිමාව පිළිබද විමර්ශනය"
         ]
     }
     # Adding questions related to Brownian Motion
@@ -122,9 +124,9 @@ while True:
         tfidf_matrix = tfidf_vectorizer.fit_transform(df['Question'])
         print("Q&A pair added!")
     else:
+
         response = get_closest_match_from_df(user_input)
         if response:
             print(response)
         else:
             print("Sorry, I don't know the answer to that.")
-
