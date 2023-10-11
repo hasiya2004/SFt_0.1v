@@ -1,5 +1,5 @@
 
-![alt text](http://url/to/img.png)
+![alt text](https://drive.google.com/drive/my-drive)
 # 📚 Q&A Retrieval System
 
 ## 🌐 Overview
