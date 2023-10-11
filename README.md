@@ -1,6 +1,6 @@
 
 ![alt text](https://github.com/[hasiya2004
-]/[SFt_0.1v]/blob/[branch]/image.jpg?raw=true)
+]/[SFt_0.1v]/blob/[123.jpg]/image.jpg?raw=true)
 # 📚 Q&A Retrieval System
 
 ## 🌐 Overview
