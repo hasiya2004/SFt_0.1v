@@ -1,5 +1,5 @@
 
-![alt text](https://drive.google.com/drive/my-drive)
+![alt text](https://drive.google.com/file/d/1jO7n-IVQXlnuHRELdX_ZsY1YNt5JhOhS/view?usp=sharing)
 # 📚 Q&A Retrieval System
 
 ## 🌐 Overview
